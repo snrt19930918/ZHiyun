@@ -1,0 +1,141 @@
+  @font-face {
+	font-family: 'FangYuan';
+	src: url('../font/FangYuan.eot?') format('eot');/*IE*/
+	src:url('../font/FangYuan.woff') format('woff'), url('../font/FangYuan.ttf') format('truetype');/*non-IE*/
+   }
+*{	
+	font-family: "FangYuan";
+	padding: 0;
+	margin:0;
+	border:none;
+	box-sizing: border-box;
+	text-decoration:none;
+}
+body{
+	position: relative;
+}
+header{
+	width: 100%;
+	position: fixed;
+	z-index: 990;
+	box-shadow: 0 1px 16px 0px rgba(0,0,0,.3);
+	width: 100%;
+	height: 100px;
+	background: -webkit-linear-gradient(top, #e8e8e8 , #f9f9f9); /* Safari 5.1 - 6.0 */
+ 	background: -o-linear-gradient(bottom, #e8e8e8, #f9f9f9); /* Opera 11.1 - 12.0 */
+ 	background: -moz-linear-gradient(bottom, #e8e8e8, #f9f9f9); /* Firefox 3.6 - 15 */
+  	background: linear-gradient(to bottom, #e8e8e8 , #f9f9f9); /* 标准的语法 */
+}
+.frame{
+	width: 1200px;
+	margin:0 auto;
+	position: relative;
+}
+.header_frame{
+	height:100%;
+}
+.menu,.logo{
+	margin-right: 72px;
+	float: left;
+	width: 160px;
+	height: 100%;
+	/*background-color: red;*/
+}
+
+.logo{
+	background-image: url('../image/Zhiyun.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	transition: all .3s linear;
+}
+.logo:hover{
+	background-size: 90%;
+}
+.menu{
+	width: 840px;
+}
+.nav_option{
+	text-align: center;
+	width: 156px;
+	height: 100%;
+	float: left;
+	list-style: none;
+}
+.nav_option span{
+	display: block;
+	font-size: 12px;
+	margin-top: 6px;
+}
+.nav_option span:nth-child(1){
+	font-size: 20px;
+	margin-top: 28px;	
+}
+.nav_option_01{
+	background-color: #fff;
+	border-bottom: 4px solid #3e81bb;
+	color: #3e81bb;
+}
+.nav_option_02{
+	color: rgba(0,0,0,.7);
+	transition:all .2s linear;
+}
+.nav_option_02:hover{
+	background-color:#3e81bb;
+	color: #fff;
+}
+main{
+	background-color: #3e81bb;
+	/*border-top: 1px solid #fff;*/
+	overflow: hidden;
+
+}
+.main_frame{
+	height: 4300px;
+	background-image: url('../image/0001.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+footer{
+	height: 100px;
+	background-color: #121212;
+	color: #cdcdcd;
+	font-size: 14px;
+}
+.seo{
+	margin-top: 30px;
+	float: left;
+}
+.seo span{
+	display: block;
+	margin-bottom: 10px;
+}
+.seo a{
+	color: rgba(255,255,255,.5);
+}
+.seo a:hover{
+	color: #fff;
+}
+.gs{
+	margin-top: 16px;
+	float: right;
+	width: 50px;
+}
+.gs_icon{
+	width: 50px;
+	height: 50px;
+	background-image: url('../image/gs.png');
+}
+.gs span{
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
